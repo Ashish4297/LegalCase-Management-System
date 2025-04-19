@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-checkbox:checked {
+  @apply right-0 border-blue-600;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply bg-blue-600;
+}
+.toggle-checkbox {
+  right: 0;
+  transition: all 0.3s;
+}
+.toggle-label {
+  transition: all 0.3s;
+}
